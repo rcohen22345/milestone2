@@ -1,0 +1,14 @@
+Progress Report
+
+
+We considered our assumptions, E/R Diagrams and list of tables from Milestone 1 to still be comprehensive for this milestone; thus, we did not add any additional components. In terms of changes we made to the database during performance tuning, we indexed over all of the artists name in order to allow us to detect artists that were duplicates.
+
+
+Description of our Platform
+
+For task 6 we elected to use the ‘Play Framework’ platform. After considering other options, such as teaching ourselves HTML, we decided it provided us with the most practical and accessible to front-end web application development. It has a wide range of functionality and built-in testing tools that allowed us to easily track our progress. As such, it provided an efficient medium for us to bring our code forward to a format where it is easily visualized and our project is digestible to a wide base of people. We went with the ‘Scala’ framework as it is extremely scalable and this was the type of tool that we need when we are dealing with a massive library of musical data (Spotify API). We found that it offered a very streamlined workflow with a superior runtime to other alternatives, and we particularly liked the ‘Hit-Refresh’ aspect of the workflow where upon reloading you are presented with the opportunity to review your progress immediately.
+
+
+General Notes
+
+We had a degree of trouble implementing the Spotify API as the Authentication Flow was slightly more complex than we had first envisioned. In order to develop a working product, we instead created a static database. We have included this database in the submission. Note that the database that we used was lacking in information. This is the reason why our tables are not complete. Additionally, as we are going to need to change our databases, there was no good reason to fully implement the tables into the front end, as we know it needs to be changed.
